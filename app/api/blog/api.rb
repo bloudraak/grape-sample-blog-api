@@ -40,6 +40,8 @@ module Blog
         @weblog.title = params[:title] if params[:title]
         @weblog.description = params[:description] if params[:description]
         @weblog.save 
+        
+        status 201
         @weblog
       end
       
@@ -88,6 +90,8 @@ module Blog
         @comment.name = params[:name] if params[:name]
         @comment.name = params[:body] if params[:body]
         @post.comments << @comment
+        
+        status 201
         @comment
       end
       
