@@ -1,6 +1,6 @@
 # Blog API
 
-This is a sample application showing how to use grape to create a simple API. This sample
+This is a example application showing how to use [grape](https://github.com/intridea/grape) to create a simple API. This sample
 show cases how to create a simple API without authentication, caching, custom errors, 
 entities and such other things to build a robust public API.
 
