@@ -1,6 +1,42 @@
 # Blog API
 
-This is a sample application showing how to use grape to create a simple API. 
+This is a sample application showing how to use grape to create a simple API. This sample
+show cases how to create a simple API without authentication, caching, custom errors, 
+entities and such other things to build a robust public API.
+
+I wrote the sample because I was unable to find a sample to cover the basics of grape.
+
+## Requirements
+
+The sample was developed using the following software. If your software is different, the 
+sample may still work, but there is no guarantee. 
+
+1. Rails 3.2.8
+2. ruby 1.9.3p194
+3. OS X 10.8.1 (aka Mountain Lion)
+4. Grape (0.2.1) 
+
+## Setup
+
+Install the gems
+
+```bash
+bundle install
+```
+
+Create and migrate the database
+
+```bash
+rake db:migrate
+```
+
+## Running the sample
+
+You can run the server using the built-in rails server
+
+```bash
+rails server
+```
 
 ## Usage
 
