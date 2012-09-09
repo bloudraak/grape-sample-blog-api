@@ -6,7 +6,7 @@ entities and such other things to build a robust public API.
 
 I wrote the sample because I was unable to find a sample to cover the basics of grape.
 
-## Requirements
+## Environment
 
 The sample was developed using the following software. If your software is different, the 
 sample may still work, but there is no guarantee. 
@@ -28,6 +28,12 @@ Create and migrate the database
 
 ```bash
 rake db:migrate
+```
+
+Seed the database
+
+```bash
+rake db:seed
 ```
 
 ## Running the sample
