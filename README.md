@@ -91,7 +91,7 @@ curl -X DELETE http://localhost:3000/weblogs/2/posts
 Updating a post
 
 ```bash
-curl -d '{"title": "Dummy"}'  -X POST -H Content-Type:application/json http://localhost:3000/posts/2
+curl -d '{"title": "Dummy"}'  -X PUT -H Content-Type:application/json http://localhost:3000/posts/2
 ```
  
 Delete all posts
